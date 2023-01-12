@@ -6,18 +6,41 @@ title: Experience
 Sree Harsha Tanneru
 ============
 
-Education
----------
+# **EDUCATION**
 
-2022-2024 (expected)
-:   **Master of Engineering (Research), Computational Science and Engineering**; Harvard University (Cambridge, MA)
+-   ---------------------------------------------------------------------------------------------------- ----------------------
+      **Harvard University**                                                                                        Cambridge, MA
+      *Master of Science in Computational Science and Engineering*                                           Aug 2022 -- Dec 2023
+      CGPA: 3.92 (scale of 4.0)                                                                            
+      Courses: Advanced Scientific Computing, Applied Bayesian Inference, Probabilistic Machine Learning   
+      ---------------------------------------------------------------------------------------------------- ----------------------
 
-    *Courses: Advanced Scientific Computing, Applied Bayesian Inference, Probabilistic Machine Learning*
+-   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ----------------------
+      **Indian Institute of Technology Madras**                                                                                                                                                                         Chennai, TN
+      *Bachelor of Technology in Engineering*                                                                                                                                                                  Aug 2015 -- May 2019
+      CGPA: 8.73 (scale of 10.0), Dissertation : [](https://isme.iitd.ac.in/journals/thermofluids/index.php/stage/article/56/) Advisor: [](https://mech.iitm.ac.in/meiitm/personnal/dr-balaji-srinivasan/)   
+      Courses: Machine Learning, Deep Learning, Computational Fluid Flow, Randomized Algorithms                                                                                                              
+      ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ----------------------
 
-2015-2019
-:   **Bachelor of Technology, Mechanical Engineering**; Indian Institute of Technology Madras (Chennai, TN)
+[//]: # (Education)
 
-    *Dissertation : Reconstruction of Fluid Flows using CNNs Advisor: Dr.Balaji Srinivasan*
+[//]: # (---------)
+
+[//]: # ()
+[//]: # (: 2022-2024 &#40;expected&#41;)
+
+[//]: # (:   **Master of Engineering &#40;Research&#41;, Computational Science and Engineering**; Harvard University &#40;Cambridge, MA&#41;)
+
+[//]: # ()
+[//]: # (    *Courses: Advanced Scientific Computing, Applied Bayesian Inference, Probabilistic Machine Learning*)
+
+[//]: # ()
+[//]: # (2015-2019)
+
+[//]: # (:   **Bachelor of Technology, Mechanical Engineering**; Indian Institute of Technology Madras &#40;Chennai, TN&#41;)
+
+[//]: # ()
+[//]: # (    *Dissertation : Reconstruction of Fluid Flows using CNNs Advisor: Dr.Balaji Srinivasan*)
 
 Professional Experience
 ----------
