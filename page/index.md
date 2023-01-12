@@ -1,6 +1,6 @@
 ---
 layout: full-width
-title: About Me
+title: Work Experience
 ---
 
 Hi! I am Sree Harsha Tanneru, a graduate student studying applied mathematics and computer science at the Institute for Applied Computation at Harvard 
