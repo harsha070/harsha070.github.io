@@ -7,13 +7,13 @@ Education
 ---------
 
 
-**Master of Engineering (Research), Computational Science and Engineering**
-Harvard University (Cambridge, MA) 2022-2024
+**Master of Engineering (Research), Computational Science and Engineering**  
+Harvard University (Cambridge, MA) 2022-2024  
 Courses: Advanced Scientific Computing, Applied Bayesian Inference, Probabilistic Machine Learning
 
 
-**Bachelor of Technology, Mechanical Engineering**
-Indian Institute of Technology Madras (Chennai, TN) 2015-2019
+**Bachelor of Technology, Mechanical Engineering**  
+Indian Institute of Technology Madras (Chennai, TN) 2015-2019  
 Dissertation : [Reconstruction of Fluid Flows using CNNs](https://isme.iitd.ac.in/journals/thermofluids/index.php/stage/article/56/) Advisor: [Dr.Balaji Srinivasan](https://mech.iitm.ac.in/meiitm/personnal/dr-balaji-srinivasan/)
 
 
