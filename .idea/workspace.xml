@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="313c5fbb-3d51-4973-90a5-5412c949c99d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/_sass/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/page/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

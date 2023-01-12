@@ -3,22 +3,18 @@ layout: full-width
 title: Experience
 ---
 
-Sree Harsha Tanneru
-============
-
 Education
-
 ---------
 
 
-:   **Master of Engineering (Research), Computational Science and Engineering**; Harvard University (Cambridge, MA)  
+**Master of Engineering (Research), Computational Science and Engineering**; Harvard University (Cambridge, MA) 2022-2024
     
-    *Courses: Advanced Scientific Computing, Applied Bayesian Inference, Probabilistic Machine Learning*
+Courses: Advanced Scientific Computing, Applied Bayesian Inference, Probabilistic Machine Learning
 
 
-:   **Bachelor of Technology, Mechanical Engineering**; Indian Institute of Technology Madras (Chennai, TN) <div style="text-align: right"> 2015-2019 </div>
+**Bachelor of Technology, Mechanical Engineering**; Indian Institute of Technology Madras (Chennai, TN) 2015-2019
 
-    *Dissertation : Reconstruction of Fluid Flows using CNNs Advisor: Dr.Balaji Srinivasan*
+Dissertation : [Reconstruction of Fluid Flows using CNNs](https://isme.iitd.ac.in/journals/thermofluids/index.php/stage/article/56/) Advisor: [Dr.Balaji Srinivasan](https://mech.iitm.ac.in/meiitm/personnal/dr-balaji-srinivasan/)
 
 
 Professional Experience
@@ -37,9 +33,10 @@ Developed distributed systems for computer vision, natural language and speech p
 * ML Infrastructure
 
 Technical Skills
+----------
 
-:   **Programming Languages:** Python (Proficient), C++ C C# Java & Scala (Elementary)
+**Programming Languages:** Python (Proficient), C++ C C# Java & Scala (Elementary)
 
-:   **Frameworks:** TensorFlow, PyTorch, Caffe, Keras, Apache Kafka, AsyncIO, OpenGL, Simulink, MATLAB
+**Frameworks:** TensorFlow, PyTorch, Caffe, Keras, Apache Kafka, AsyncIO, OpenGL, Simulink, MATLAB
 
-:   **Software Development:** Git, Docker, Kubernetes, Jenkins, PyCharm, IntelliJ
+**Software Development:** Git, Docker, Kubernetes, Jenkins, PyCharm, IntelliJ
