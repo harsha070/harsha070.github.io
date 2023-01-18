@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Introducing Sharpness measure in Variational Autoencoders and Variational Autoencoder Generative Adversarial Networks"
-date:   2018-01-12 17:04:01
+title:  "Introducing Sharpness measure in VAEs and VAEGANs"
+date:   2018-12-01 17:04:01
 categories: post
 ---
 

@@ -11,8 +11,6 @@ In what seems like a lifetime ago, I graduated from [Indian Institute of Technol
 
 <br/>
 <br/>
-<br/>
-<br/>
 
 
 ## On another note,
