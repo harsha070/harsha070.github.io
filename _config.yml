@@ -17,6 +17,9 @@ post:
 page:
   template: _page.txt
   extension: md
+blog:
+  template: _blog.txt
+  extension: md
 editor: gvim
 git:
   branch: master
