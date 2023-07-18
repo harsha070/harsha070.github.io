@@ -4,7 +4,7 @@ title: About Me
 ---
 
 Hey there! I am Sree Harsha Tanneru, a rising 2<sup>nd</sup> year Masters student in Computational Science at the [Institute for Applied Computation](https://iacs.seas.harvard.edu/) at [Harvard 
-University](https://harvard.edu). I am broadly interested in Probabilistic Machine Learning, Uncertainty Quantification, and Machine Learning on Manifolds.
+University](https://harvard.edu). I am broadly interested in Machine Learning Explainability, Uncertainty Quantification, and Machine Learning on Manifolds.
 
 Prior to graduate school, I was a Lead Product Engineer in Machine Learning at [Sprinklr AI](https://www.sprinklr.com/ai/) for three years developing distributed machine learning systems for vision, language and speech processing. A few products I worked on - [Visual Insights](https://www.sprinklr.com/features/visual-insights/), [Conversational AI](https://www.sprinklr.com/features/conversational-ai-chatbots/), [Voice AI](https://www.sprinklr.com/features/voice-bots/).
 In what seems like a lifetime ago, I graduated from [Indian Institute of Technology Madras](https://www.iitm.ac.in/) with a Bachelors degree from the [Department of Mechanical Engineering](https://mech.iitm.ac.in/meiitm/). I had a fun time working on problems in computational fluid flow simulations and numerical methods, which gradually turned into an interest in machine learning.

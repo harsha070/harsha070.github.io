@@ -4,10 +4,10 @@ $body-font: ETBembo, "Chronicle Text G2", Palatino, "Palatino Linotype", "Palati
 // Note that Gill Sans is the top of the stack and corresponds to what is used in Tufte's books
 // However, it is not a free font, so if it is not present on the computer that is viewing the webpage
 // The free Google 'Lato' font is used instead. It is similar.
-$sans-font: "Gill Sans", "Gill Sans MT", "Gotham Narrow", "Lato", Calibri, sans-serif;
+$sans-font: ETBembo, "Gill Sans", "Gill Sans MT", "Gotham Narrow", "Lato", Calibri, sans-serif;
 $code-font: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 $url-font: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
-$text-color: #8e0000;
+$text-color: #07006e;
 $bg-color: #ffffff;
 $contrast-color: #000000;
 $border-color: #333333;
