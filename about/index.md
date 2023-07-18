@@ -15,6 +15,6 @@ In what seems like a lifetime ago, I graduated from [Indian Institute of Technol
 
 ## On another note,
 
-I am looking for an internship position (Applied Scientist / Research Engineer / Software Engineer) for Summer 2023. I have good experience in Software Engineering (Python, C++, Kafka, Kubernetes, Git, Docker, AsyncIO), and Data Science (Text Classification, Speech Recognition, Speech Synthesis, Seq2Seq, Object Detection, Representation Learning). [Email](mailto:sreeharshatanneru@g.harvard.edu) if you have an opportunity for me!
+I am looking for an full-time positions (Applied Scientist / Research Engineer / Software Engineer) starting in 2024. I have good experience in Software Engineering (Python, C++, Kafka, Kubernetes, Git, Docker, AsyncIO), and Data Science (Text Classification, Speech Recognition, Speech Synthesis, Seq2Seq, Object Detection, Representation Learning). [Email](mailto:sreeharshatanneru@g.harvard.edu) if you have an opportunity for me!
 
 Furthermore, I am always on the lookout for social impact opportunities in education accessibility, financial inclusion, environmental conservation, and digital healthcare.
