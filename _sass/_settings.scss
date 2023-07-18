@@ -7,11 +7,11 @@ $body-font: ETBembo, "Chronicle Text G2", Palatino, "Palatino Linotype", "Palati
 $sans-font: "Gill Sans", "Gill Sans MT", "Gotham Narrow", "Lato", Calibri, sans-serif;
 $code-font: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 $url-font: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
-$text-color: #111;
-$bg-color: #fffff8;
-$contrast-color: #a00000;
+$text-color: #84ceff;
+$bg-color: #ffffff;
+$contrast-color: #000000;
 $border-color: #333333;
-$link-style: color; // choices are 'color' or 'underline'. Color option styles links with $contrast-color set above
+$link-style: underline; // choices are 'color' or 'underline'. Color option styles links with $contrast-color set above
 
 
 
