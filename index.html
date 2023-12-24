@@ -1,143 +1,77 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages Site</title>
+    <style>
+        body {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-  <title>projects</title>
-  <meta name="description" content="A Jekyll theme for content-rich sites">
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://c8.alamy.com/comp/P5D8B3/big-data-visualization-artificial-intelligence-and-machine-learning-concept-graphic-abstract-background-communication-perspective-backdrop-visualization-vector-illustration-P5D8B3.jpg') center center fixed; /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: -1; /* Place the pseudo-element behind the content */
+            opacity: 0.1; /* Adjust the opacity of the background image */
+        }
 
-  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
-  
-    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
-  
-  
-<!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
-  
-    <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: [
-      "MathMenu.js",
-      "MathZoom.js",
-      "AssistiveMML.js",
-      "a11y/accessibility-menu.js"
-    ],
-    jax: ["input/TeX", "output/CommonHTML"],
-    TeX: {
-      extensions: [
-        "AMSmath.js",
-        "AMSsymbols.js",
-        "noErrors.js",
-        "noUndefined.js",
-      ]
-    }
-  });
-</script>
+        h1 {
+            color: #000000;
+        }
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  
+        h2 {
+            color: #E44D26;
+        }
 
+        p {
+            color: #000000;
+        }
 
-  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
-  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
 
-  <link rel="canonical" href="/">
-
-  <link rel="alternate" type="application/rss+xml" title="Tufte-Jekyll" href="/feed.xml" />
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+<body>
+    <h1>Sree Harsha Tanneru</h1>
 
-  <body class="full-width">
-    <!--- Header and nav template site-wide -->
-<header>
-    <nav class="group">
-	<a href="/"><img class="badge" src="/assets/img/photo_3.jpeg" alt="CH"></a>
-	
-		
-  	
-		
-		    
-		      <a class="active" href="/" class="active">projects</a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/page/">Experience</a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/about/">About Me</a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/css/print.css"></a>
-		    
-	    
-  	
-		
-  	
-	</nav>
-</header>
+    <p>Hey there! Welcome to my personal website. I am a 2<sup>nd</sup> year Masters student in Computational Science at <a href="https://harvard.edu">Harvard University</a> advised by <a href="himalakkaraju.github.io">Prof. Himabindu Lakkaraju</a>. 
+        I work on problems in Machine Learning Explainability, Uncertainty Quantification, and Geometric Methods in Machine Learning.
+        <br><br>
+        I previously graduated with a Bachelors degree from <a ref="https://www.iitm.ac.in/">Indian Institute of Technology Madras</a> where I was advised by <a ref="https://rbcdsai.iitm.ac.in/people/balaji-srinivasan/">Prof. Balaji Srinivasan</a>. I had a fun time working on problems in computational fluid flow simulations and numerical methods, which gradually turned into an interest in machine learning.
+    </p>
+    
+    <p>Feel free to <a href="page2.html">visit</a> for more of my projects!</p>
 
-    <article>
-        <h1 class="content-listing-header sans">Academic Research</h1>
-  <ul class="content-listing ">
-          
-        <li class="listing">
-          <hr class="slender">
-          <a href="/articles/20/Edge-Cases"><h3 class="contrast">Ising Models: Numerical Simulations and Physical Applications</h3></a>
-          <br><span class="smaller">April 13, 2020</span>  <br/>
-          <div><p>Ising models are idealized mathematical models of particles with binary spins. While this work will focus on their use in equilibrium statistical mechanics, the models have  numerous applications in physics, engineering, or neuroscience.</p>
-</div> 
-        </li>
-          
-        <li class="listing">
-          <hr class="slender">
-          <a href="/articles/19/Fluid-Flow-Reconstruction"><h3 class="contrast">Super-Resolution Reconstruction of Fluid Flows</h3></a>
-          <br><span class="smaller">May 1, 2019</span>  <br/>
-          <div><p>Accuracy in computation of fluid flow data using finite volume methods improves with the resolution of the mesh. Increasing mesh resolution has a trade-off with time required for convergence. Coarser the grid, the lesser number of iterations are required for arriving at a converged solution. With increasingly available flow data, we expect that information contained in previously computed fine mesh flows could help in reconstructing fine mesh flows from coarse mesh flows. This reconstruction called super-resolution analysis is a popular area of research in deep learning.</p>
-</div> 
-        </li>
-          
-        <li class="listing">
-          <hr class="slender">
-          <a href="/articles/18/Sharpness-Improvement"><h3 class="contrast">Introducing Sharpness measure in VAEs and VAEGANs</h3></a>
-          <br><span class="smaller">December 1, 2018</span>  <br/>
-          <div><p>Images generated using Variational Autoencoders are generally not sharp as they try to learn an explicit distribution of the input with a multi-dimensional Gaussian distribution. We propose a sharpness loss term motivated by <a href="https://ijssst.info/Vol-19/No-1/paper7.pdf">A New Method for Full Reference Image Blur Measure </a>, to improve sharpness as a part of loss function</p>
+    <p>Keywords: GPU Poor, Halulu</p>
 
-</div> 
-        </li>
-    
-  </ul>
-    </article>
-    <span class="print-footer">projects - Sree Harsha Tanneru</span>
-    <footer>
-  <hr class="slender">
-  <ul class="footer-links">
-    <li><a href="mailto:hate@spam.net"><span class="icon-mail3"></span></a></li>    
-    
-      <li>
-        <a href="//www.twitter.com/SreeTanneru"><span class="icon-twitter"></span></a>
-      </li>
-    
-      <li>
-        <a href="//github.com/harsha070"><span class="icon-github"></span></a>
-      </li>
-    
-      <li>
-        <a href="//www.linkedin.com/in/harsha-tanneru"><span class="icon-linkedin"></span></a>
-      </li>
-      
-  </ul>
-<div class="credits">
-<span>&copy; 2023 &nbsp;&nbsp;SREE HARSHA TANNERU</span></br> <br>
-<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for Content-centric blogging </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
-</div>  
-</footer>
-  </body>
+    <h2>Research</h2>
+    <ol>
+        <li>Himabindu Lakkaraju, Sree Harsha Tanneru*, Chirag Agarwal. <a ref="https://openreview.net/forum?id=Yd2S8flZKm">Uncertainty In Natural Language Explanations of Large Language Models</a>, Spotlight Paper at <a href="https://sites.google.com/view/r0-fomo/accepted-papers?authuser=0">NeurIPS 2023 Workshop</a></li>
+        <br>
+        <li>Alexander Lin* Sree Harsha Tanneru*, Lucas Monteiro Paes*, Suraj Srinivas, and Himabindu Lakkaraju. <a ref="https://openreview.net/forum?id=lt9B9Dek5M">Word-Level Explanations for Analyzing Bias in Text-to-Image Models</a>, <a ref="https://deployinggenerativeai.github.io/">Workshop on Challenges of Deploying Generative AI at ICML 2023</a></li>
+        <br>
+        <li>Sree Harsha Tanneru*. <a ref="https://openreview.net/forum?id=fEj7m5Z12P">Edge Importance Scores for Editing Graph Topology to Preserve Fairness</a>, Workshop on Topology, Algebra, and Geometry in Machine Learning at ICML 2023</li>
+        <br>
+        <li>Dr. Balaji Srinivasan, T Sree Harsha*. <a ref="https://isme.iitd.ac.in/journals/thermofluids/files/publish/published-pdf-8-6-Reconstruction%20of%20Flows%20using%20Convolutional%20neural%20networks.pdf">Reconstruction of Flows using Convolutional Neural Networks</a>, <a ref="https://isme.iitd.ac.in/journals/thermofluids/">ISME Journal of Thermofluids</a> Volume 5(1): 01-15. doi: 112019</li>
+        <br>
+    </ol>
+
+</body>
 </html>
