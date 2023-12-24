@@ -1,129 +1,77 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages Site</title>
+    <style>
+        body {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-  <title>About Me</title>
-  <meta name="description" content="A Jekyll theme for content-rich sites">
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://c8.alamy.com/comp/P5D8B3/big-data-visualization-artificial-intelligence-and-machine-learning-concept-graphic-abstract-background-communication-perspective-backdrop-visualization-vector-illustration-P5D8B3.jpg') center center fixed; /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: -1; /* Place the pseudo-element behind the content */
+            opacity: 0.1; /* Adjust the opacity of the background image */
+        }
 
-  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
-  
-    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
-  
-  
-<!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
-  
-    <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: [
-      "MathMenu.js",
-      "MathZoom.js",
-      "AssistiveMML.js",
-      "a11y/accessibility-menu.js"
-    ],
-    jax: ["input/TeX", "output/CommonHTML"],
-    TeX: {
-      extensions: [
-        "AMSmath.js",
-        "AMSsymbols.js",
-        "noErrors.js",
-        "noUndefined.js",
-      ]
-    }
-  });
-</script>
+        h1 {
+            color: #000000;
+        }
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>  
+        h2 {
+            color: #E44D26;
+        }
 
+        p {
+            color: #000000;
+        }
 
-  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
-  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
 
-  <link rel="canonical" href="/about/">
-
-  <link rel="alternate" type="application/rss+xml" title="Tufte-Jekyll" href="/feed.xml" />
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+<body>
+    <h1>Sree Harsha Tanneru</h1>
 
-  <body class="full-width">
-    <!--- Header and nav template site-wide -->
-<header>
-    <nav class="group">
-	<a href="/"><img class="badge" src="/assets/img/photo_3.jpeg" alt="CH"></a>
-	
-		
-  	
-		
-		    
-		      <a href="/">projects</a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/page/">Experience</a>
-		    
-	    
-  	
-		
-		    
-		      <a class="active" href="/about/" class="active">About Me</a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/css/print.css"></a>
-		    
-	    
-  	
-		
-  	
-	</nav>
-</header>
-
-    <article>
-      <p>Hey there! I am Sree Harsha Tanneru, a rising 2<sup>nd</sup> year Masters student in Computational Science at the <a href="https://iacs.seas.harvard.edu/">Institute for Applied Computation</a> at <a href="https://harvard.edu">Harvard 
-University</a>. I am broadly interested in Machine Learning Explainability, Uncertainty Quantification, and Machine Learning on Manifolds.</p>
-
-<p>Prior to graduate school, I was a Lead Product Engineer in Machine Learning at <a href="https://www.sprinklr.com/ai/">Sprinklr AI</a> for three years developing distributed machine learning systems for vision, language and speech processing. A few products I worked on - <a href="https://www.sprinklr.com/features/visual-insights/">Visual Insights</a>, <a href="https://www.sprinklr.com/features/conversational-ai-chatbots/">Conversational AI</a>, <a href="https://www.sprinklr.com/features/voice-bots/">Voice AI</a>.
-In what seems like a lifetime ago, I graduated from <a href="https://www.iitm.ac.in/">Indian Institute of Technology Madras</a> with a Bachelors degree from the <a href="https://mech.iitm.ac.in/meiitm/">Department of Mechanical Engineering</a>. I had a fun time working on problems in computational fluid flow simulations and numerical methods, which gradually turned into an interest in machine learning.</p>
-
-<p><br />
-<br /></p>
-
-<h2 id="on-another-note">On another note,</h2>
-
-<p>I am looking for an full-time positions (Applied Scientist / Research Engineer / Software Engineer) starting in 2024. I have good experience in Software Engineering (Python, C++, Kafka, Kubernetes, Git, Docker, AsyncIO), and Data Science (Text Classification, Speech Recognition, Speech Synthesis, Seq2Seq, Object Detection, Representation Learning). <a href="mailto:sreeharshatanneru@g.harvard.edu">Email</a> if you have an opportunity for me!</p>
-
-<p>Furthermore, I am always on the lookout for social impact opportunities in education accessibility, financial inclusion, environmental conservation, and digital healthcare.</p>
-
-    </article>
-    <span class="print-footer">About Me - Sree Harsha Tanneru</span>
-    <footer>
-  <hr class="slender">
-  <ul class="footer-links">
-    <li><a href="mailto:hate@spam.net"><span class="icon-mail3"></span></a></li>    
+    <p>Hey there! Welcome to my personal website. I am a 2<sup>nd</sup> year Masters student in Computational Science at <a href="https://harvard.edu">Harvard University</a> advised by <a href="himalakkaraju.github.io">Prof. Himabindu Lakkaraju</a>. 
+        I work on problems in Machine Learning Explainability, Uncertainty Quantification, and Geometric Methods in Machine Learning.
+        <br><br>
+        I previously graduated with a Bachelors degree from <a ref="https://www.iitm.ac.in/">Indian Institute of Technology Madras</a> where I was advised by <a ref="https://rbcdsai.iitm.ac.in/people/balaji-srinivasan/">Prof. Balaji Srinivasan</a>. I had a fun time working on problems in computational fluid flow simulations and numerical methods, which gradually turned into an interest in machine learning.
+    </p>
     
-      <li>
-        <a href="//www.twitter.com/SreeTanneru"><span class="icon-twitter"></span></a>
-      </li>
-    
-      <li>
-        <a href="//github.com/harsha070"><span class="icon-github"></span></a>
-      </li>
-    
-      <li>
-        <a href="//www.linkedin.com/in/harsha-tanneru"><span class="icon-linkedin"></span></a>
-      </li>
-      
-  </ul>
-<div class="credits">
-<span>&copy; 2023 &nbsp;&nbsp;SREE HARSHA TANNERU</span></br> <br>
-<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for Content-centric blogging </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
-</div>  
-</footer>
-  </body>
+    <p>Feel free to <a href="page2.html">visit</a> for more of my projects!</p>
+
+    <p>Keywords: GPU Poor, Halulu</p>
+
+    <h2>Research</h2>
+    <ol>
+        <li>Himabindu Lakkaraju, Sree Harsha Tanneru*, Chirag Agarwal. <a ref="https://openreview.net/forum?id=Yd2S8flZKm">Uncertainty In Natural Language Explanations of Large Language Models</a>, Spotlight Paper at <a href="https://sites.google.com/view/r0-fomo/accepted-papers?authuser=0">NeurIPS 2023 Workshop</a></li>
+        <br>
+        <li>Alexander Lin* Sree Harsha Tanneru*, Lucas Monteiro Paes*, Suraj Srinivas, and Himabindu Lakkaraju. <a ref="https://openreview.net/forum?id=lt9B9Dek5M">Word-Level Explanations for Analyzing Bias in Text-to-Image Models</a>, <a ref="https://deployinggenerativeai.github.io/">Workshop on Challenges of Deploying Generative AI at ICML 2023</a></li>
+        <br>
+        <li>Sree Harsha Tanneru*. <a ref="https://openreview.net/forum?id=fEj7m5Z12P">Edge Importance Scores for Editing Graph Topology to Preserve Fairness</a>, Workshop on Topology, Algebra, and Geometry in Machine Learning at ICML 2023</li>
+        <br>
+        <li>Dr. Balaji Srinivasan, T Sree Harsha*. <a ref="https://isme.iitd.ac.in/journals/thermofluids/files/publish/published-pdf-8-6-Reconstruction%20of%20Flows%20using%20Convolutional%20neural%20networks.pdf">Reconstruction of Flows using Convolutional Neural Networks</a>, <a ref="https://isme.iitd.ac.in/journals/thermofluids/">ISME Journal of Thermofluids</a> Volume 5(1): 01-15. doi: 112019</li>
+        <br>
+    </ol>
+
+</body>
 </html>
