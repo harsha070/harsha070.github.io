@@ -10,6 +10,7 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            padding-right: 40%; /* Adjust this value as needed */
         }
 
         body::before {
@@ -17,14 +18,30 @@
             position: fixed;
             top: 0;
             left: 0;
-            width: 100%;
+            width: 70%;
             height: 100%;
-            background: url('https://c8.alamy.com/comp/P5D8B3/big-data-visualization-artificial-intelligence-and-machine-learning-concept-graphic-abstract-background-communication-perspective-backdrop-visualization-vector-illustration-P5D8B3.jpg') center center fixed; /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+            background: url('assets/img/pic2.png') center center fixed;
             background-size: cover;
             background-repeat: no-repeat;
-            z-index: -1; /* Place the pseudo-element behind the content */
-            opacity: 0.1; /* Adjust the opacity of the background image */
+            z-index: -1;
+            opacity: 0.0; /* Adjust the opacity for the left half */
         }
+
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 58%; /* Position the right half */
+            width: 42%;
+            height: 100%;
+            background: url('assets/img/pic2.png') center center fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: -1;
+            opacity: 0.8; /* Adjust the opacity for the right half */
+        }
+
+
 
         h1 {
             color: #000000;
@@ -51,23 +68,25 @@
 <body>
     <h1>Sree Harsha Tanneru</h1>
 
-    <p>Hey there! Welcome to my personal website. I am a 2<sup>nd</sup> year Masters student in Computational Science at <a href="https://harvard.edu">Harvard University</a> advised by <a href="himalakkaraju.github.io">Prof. Himabindu Lakkaraju</a>. 
+    <p>Hey there! Welcome to my personal website. I am a 2<sup>nd</sup> year Masters student in Computational Science at <a href="https://harvard.edu" style="color:blue;">Harvard University</a> advised by <a href="himalakkaraju.github.io" style="color:blue;">Prof. Himabindu Lakkaraju</a>. 
         I work on problems in Machine Learning Explainability, Uncertainty Quantification, and Geometric Methods in Machine Learning.
         <br><br>
-        I previously graduated with a Bachelors degree from <a ref="https://www.iitm.ac.in/">Indian Institute of Technology Madras</a> where I was advised by <a ref="https://rbcdsai.iitm.ac.in/people/balaji-srinivasan/">Prof. Balaji Srinivasan</a>. I had a fun time working on problems in computational fluid flow simulations and numerical methods, which gradually turned into an interest in machine learning.
+        I previously graduated with a Bachelors degree from <a ref="https://www.iitm.ac.in/" style="color:blue;">Indian Institute of Technology Madras</a> where I was advised by <a ref="https://rbcdsai.iitm.ac.in/people/balaji-srinivasan/" style="color:blue;">Prof. Balaji Srinivasan</a>. I had a fun time working on problems in computational fluid flow simulations and numerical methods, which gradually turned into an interest in machine learning.
     </p>
     
-    <p>Feel free to <a href="about/projects.html">visit</a> for more of my projects!</p>
+    <!-- <p>Feel free to <a href="about/projects.html" style="color:blue;">visit</a> for more of my projects!</p> -->
 
-    <h2>Research</h2>
+    <h1>Research</h1>
     <ol>
-        <li>Himabindu Lakkaraju, Sree Harsha Tanneru*, Chirag Agarwal. <a ref="https://openreview.net/forum?id=Yd2S8flZKm">Uncertainty In Natural Language Explanations of Large Language Models</a>, Spotlight Paper at <a href="https://sites.google.com/view/r0-fomo/accepted-papers?authuser=0">NeurIPS 2023 Workshop</a></li>
+        <li>Chirag Agarwal, Sree Harsha Tanneru, Himabindu Lakkaraju. <a ref="https://arxiv.org/abs/2402.04614" style="color:blue;">Faithfulness vs. Plausibility: On the (Un)Reliability of Explanations from Large Language Models</a>, Preprint. Under Review.</li>
         <br>
-        <li>Alexander Lin* Sree Harsha Tanneru*, Lucas Monteiro Paes*, Suraj Srinivas, and Himabindu Lakkaraju. <a ref="https://openreview.net/forum?id=lt9B9Dek5M">Word-Level Explanations for Analyzing Bias in Text-to-Image Models</a>, <a ref="https://deployinggenerativeai.github.io/">Workshop on Challenges of Deploying Generative AI at ICML 2023</a></li>
+        <li>Himabindu Lakkaraju, Sree Harsha Tanneru*, Chirag Agarwal*. <a ref="https://openreview.net/forum?id=Yd2S8flZKm" style="color:blue;">Uncertainty In Natural Language Explanations of Large Language Models</a>, Accepted at <a ref="https://aistats.org/aistats2024/" style="color:blue;">AISTATS 2024</a>, and a Spotlight Paper at <a href="https://sites.google.com/view/r0-fomo/accepted-papers?authuser=0" style="color:blue;">NeurIPS 2023 Workshop</a></li>
         <br>
-        <li>Sree Harsha Tanneru*. <a ref="https://openreview.net/forum?id=fEj7m5Z12P">Edge Importance Scores for Editing Graph Topology to Preserve Fairness</a>, Workshop on Topology, Algebra, and Geometry in Machine Learning at ICML 2023</li>
+        <li>Alexander Lin*, Sree Harsha Tanneru*, Lucas Monteiro Paes*, Suraj Srinivas, and Himabindu Lakkaraju. <a ref="https://openreview.net/forum?id=lt9B9Dek5M" style="color:blue;">Word-Level Explanations for Analyzing Bias in Text-to-Image Models</a>, <a ref="https://deployinggenerativeai.github.io/" style="color:blue;">Workshop on Challenges of Deploying Generative AI at ICML 2023</a></li>
         <br>
-        <li>Dr. Balaji Srinivasan, T Sree Harsha*. <a ref="https://isme.iitd.ac.in/journals/thermofluids/files/publish/published-pdf-8-6-Reconstruction%20of%20Flows%20using%20Convolutional%20neural%20networks.pdf">Reconstruction of Flows using Convolutional Neural Networks</a>, <a ref="https://isme.iitd.ac.in/journals/thermofluids/">ISME Journal of Thermofluids</a> Volume 5(1): 01-15. doi: 112019</li>
+        <li>Sree Harsha Tanneru*. <a ref="https://openreview.net/forum?id=fEj7m5Z12P" style="color:blue;">Edge Importance Scores for Editing Graph Topology to Preserve Fairness</a>, Workshop on Topology, Algebra, and Geometry in Machine Learning at ICML 2023</li>
+        <br>
+        <li>Dr. Balaji Srinivasan, T Sree Harsha*. <a ref="https://isme.iitd.ac.in/journals/thermofluids/files/publish/published-pdf-8-6-Reconstruction%20of%20Flows%20using%20Convolutional%20neural%20networks.pdf" style="color:blue;">Reconstruction of Flows using Convolutional Neural Networks</a>, <a ref="https://isme.iitd.ac.in/journals/thermofluids/" style="color:blue;">ISME Journal of Thermofluids</a> Volume 5(1): 01-15. doi: 112019</li>
         <br>
     </ol>
 
