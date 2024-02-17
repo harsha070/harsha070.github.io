@@ -3,92 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
+    <title>Your Academic Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <style>
         body {
-            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
-            max-width: 800px;
-            margin: 0 auto;
+            font-family: Geneva, Verdana, cursive, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
             padding: 20px;
-            padding-right: 40%; /* Adjust this value as needed */
+            text-align: center;
         }
-
-        body::before {
-            content: "";
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 70%;
-            height: 100%;
-            background: url('../assets/img/pic2.png') center center fixed;
-            background-size: cover;
-            background-repeat: no-repeat;
-            z-index: -1;
-            opacity: 0.0; /* Adjust the opacity for the left half */
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
         }
-
-        body::after {
-            content: "";
-            position: fixed;
-            top: 0;
-            left: 58%; /* Position the right half */
-            width: 42%;
-            height: 100%;
-            background: url('../assets/img/pic2.png') center center fixed;
-            background-size: cover;
-            background-repeat: no-repeat;
-            z-index: -1;
-            opacity: 0.8; /* Adjust the opacity for the right half */
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
         }
-
-
-
-        h1 {
-            color: #000000;
-        }
-
-        h2 {
-            color: #E44D26;
-        }
-
-        p {
-            color: #000000;
-        }
-
-        a {
-            color: #007BFF;
+        nav a {
             text-decoration: none;
+            color: #333;
+            padding: 10px;
         }
-
-        a:hover {
-            text-decoration: underline;
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+        section {
+            padding: 20px;
+        }
+        .section-with-text {
+            padding: 0px;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <h1>Sree Harsha Tanneru</h1>
+    <header>
+        <img src="assets/img/profilepicture.png" alt="Profile Picture">
+        <h1>Sree Harsha Tanneru</h1>
+        <p>Graduate Student Researcher @ Harvard University</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="section-with-text">
+        <h2>About Me</h2>
+        <p>Hey there! Welcome to my personal website. I am a 2<sup>nd</sup> year Masters student in Computational Science at <a href="https://harvard.edu" style="color:blue;">Harvard University</a> advised by <a href="himalakkaraju.github.io" style="color:blue;">Prof. Himabindu Lakkaraju</a>. 
+            I work broadly in the realm of trustworthy machine learning, and particularly, explainability, uncertainty quantification, interpretability, and fairness.
+ 
+            I previously graduated with a Bachelors degree from <a ref="https://www.iitm.ac.in/" style="color:blue;">Indian Institute of Technology Madras</a> where I was advised by <a ref="https://rbcdsai.iitm.ac.in/people/balaji-srinivasan/" style="color:blue;">Prof. Balaji Srinivasan</a>. I had a fun time working on problems in computational fluid flow simulations and numerical methods, which gradually turned into an interest in machine learning.</p>
+    </section>
 
-    <p>Hey there! Welcome to my personal website. I am a 2<sup>nd</sup> year Masters student in Computational Science at <a href="https://harvard.edu" style="color:blue;">Harvard University</a> advised by <a href="himalakkaraju.github.io" style="color:blue;">Prof. Himabindu Lakkaraju</a>. 
-        I work on problems in Machine Learning Explainability, Uncertainty Quantification, and Geometric Methods in Machine Learning.
-        <br><br>
-        I previously graduated with a Bachelors degree from <a ref="https://www.iitm.ac.in/" style="color:blue;">Indian Institute of Technology Madras</a> where I was advised by <a ref="https://rbcdsai.iitm.ac.in/people/balaji-srinivasan/" style="color:blue;">Prof. Balaji Srinivasan</a>. I had a fun time working on problems in computational fluid flow simulations and numerical methods, which gradually turned into an interest in machine learning.
-    </p>
-    
-    <!-- <p>Feel free to <a href="about/projects.html" style="color:blue;">visit</a> for more of my projects!</p> -->
+    <section id="contact" class="section-with-text">
+        <h2>Contact Me</h2>
+        <a href="mailto:sreeharshatanneru@g.harvard.edu"><i class="fas fa-envelope"></i></a> email
+        <a href="https://twitter.com/SreeTanneru"><i class="fa-brands fa-x-twitter"></i></a> twitter
+        <a href="https://github.com/harsha070"><i class="fa-brands fa-github"></i></a> github
+        <a href="https://scholar.google.com/citations?user=AgPYmKoAAAAJ&hl=en"><i class="fa-brands fa-google"></i></a> google scholar        
+    </section>
 
-    <h1>Research</h1>
-    <ol>
-        <li>Chirag Agarwal, Sree Harsha Tanneru, Himabindu Lakkaraju. <a ref="https://arxiv.org/abs/2402.04614" style="color:blue;">Faithfulness vs. Plausibility: On the (Un)Reliability of Explanations from Large Language Models</a>, Preprint. Under Review.</li>
-        <br>
-        <li>Himabindu Lakkaraju, Sree Harsha Tanneru*, Chirag Agarwal*. <a ref="https://openreview.net/forum?id=Yd2S8flZKm" style="color:blue;">Uncertainty In Natural Language Explanations of Large Language Models</a>, Accepted at <a ref="https://aistats.org/aistats2024/" style="color:blue;">AISTATS 2024</a>, and a Spotlight Paper at <a href="https://sites.google.com/view/r0-fomo/accepted-papers?authuser=0" style="color:blue;">NeurIPS 2023 Workshop</a></li>
-        <br>
-        <li>Alexander Lin*, Sree Harsha Tanneru*, Lucas Monteiro Paes*, Suraj Srinivas, and Himabindu Lakkaraju. <a ref="https://openreview.net/forum?id=lt9B9Dek5M" style="color:blue;">Word-Level Explanations for Analyzing Bias in Text-to-Image Models</a>, <a ref="https://deployinggenerativeai.github.io/" style="color:blue;">Workshop on Challenges of Deploying Generative AI at ICML 2023</a></li>
-        <br>
-        <li>Sree Harsha Tanneru*. <a ref="https://openreview.net/forum?id=fEj7m5Z12P" style="color:blue;">Edge Importance Scores for Editing Graph Topology to Preserve Fairness</a>, Workshop on Topology, Algebra, and Geometry in Machine Learning at ICML 2023</li>
-        <br>
-        <li>Dr. Balaji Srinivasan, T Sree Harsha*. <a ref="https://isme.iitd.ac.in/journals/thermofluids/files/publish/published-pdf-8-6-Reconstruction%20of%20Flows%20using%20Convolutional%20neural%20networks.pdf" style="color:blue;">Reconstruction of Flows using Convolutional Neural Networks</a>, <a ref="https://isme.iitd.ac.in/journals/thermofluids/" style="color:blue;">ISME Journal of Thermofluids</a> Volume 5(1): 01-15. doi: 112019</li>
-        <br>
-    </ol>
+    <section id="research" class="section-with-text">
+        <h2>Research Interests</h2>
+        <p>
+            <ol>
+                <li>Faithfulness in foundation models</li>
+                <li>Explainability</li>
+                <li>Interpretability</li>
+            </ol>
+        </p>
+    </section>
+    <section id="publications" class="section-with-text">
+        <h2>Publications</h2>
+        <ol>
+                <li>Chirag Agarwal, Sree Harsha Tanneru, Himabindu Lakkaraju. <a href="https://arxiv.org/abs/2402.04614" style="color:blue;">Faithfulness vs. Plausibility: On the (Un)Reliability of Explanations from Large Language Models</a>, Preprint. Under Review.</li>
+                <br>
+                <li>Himabindu Lakkaraju, Sree Harsha Tanneru*, Chirag Agarwal*. <a href="https://openreview.net/forum?id=Yd2S8flZKm" style="color:blue;">Uncertainty In Natural Language Explanations of Large Language Models</a>, Accepted at <a href="https://aistats.org/aistats2024/" style="color:blue;">AISTATS 2024</a>, and a Spotlight Paper at <a href="https://sites.google.com/view/r0-fomo/accepted-papers?authuser=0" style="color:blue;">NeurIPS 2023 Workshop</a></li>
+                <br>
+                <li>Alexander Lin*, Sree Harsha Tanneru*, Lucas Monteiro Paes*, Suraj Srinivas, and Himabindu Lakkaraju. <a href="https://openreview.net/forum?id=lt9B9Dek5M" style="color:blue;">Word-Level Explanations for Analyzing Bias in Text-to-Image Models</a>, <a href="https://deployinggenerativeai.github.io/" style="color:blue;">Workshop on Challenges of Deploying Generative AI at ICML 2023</a></li>
+                <br>
+                <li>Sree Harsha Tanneru*. <a href="https://openreview.net/forum?id=fEj7m5Z12P" style="color:blue;">Edge Importance Scores for Editing Graph Topology to Preserve Fairness</a>, Workshop on Topology, Algebra, and Geometry in Machine Learning at ICML 2023</li>
+                <br>
+                <li>Dr. Balaji Srinivasan, T Sree Harsha*. <a href="https://isme.iitd.ac.in/journals/thermofluids/files/publish/published-pdf-8-6-Reconstruction%20of%20Flows%20using%20Convolutional%20neural%20networks.pdf" style="color:blue;">Reconstruction of Flows using Convolutional Neural Networks</a>, <a href="https://isme.iitd.ac.in/journals/thermofluids/" style="color:blue;">ISME Journal of Thermofluids</a> Volume 5(1): 01-15. doi: 112019</li>
+                <br>
+        </ol>
+    </section>
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; All rights reserved by ChatGPT.</p>
+    </footer>
 </body>
 </html>
