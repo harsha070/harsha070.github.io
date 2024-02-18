@@ -42,8 +42,8 @@
         }
         .section-with-text {
             padding: 0px;
-            margin-left: 20%;
-            margin-right: 20%;
+            margin-left: 15%;
+            margin-right: 15%;
         }
         footer {
             background-color: #333;
@@ -53,6 +53,21 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .image-container {
+            flex: 1.5;
+            padding-right: 0px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+        .testimonials {
+            flex: 1.5;
         }
     </style>
 </head>
@@ -67,10 +82,11 @@
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
         <a href="#contact">Contact</a>
+        <a href="#teaching">Teaching</a>
     </nav>
     <section id="about" class="section-with-text">
         <h2>About Me</h2>
-        <p>Hey there! Welcome to my personal website. I am a 2<sup>nd</sup> year Masters student in Computational Science at <a href="https://harvard.edu" style="color:blue;">Harvard University</a> advised by <a href="himalakkaraju.github.io" style="color:blue;">Prof. Himabindu Lakkaraju</a>. 
+        <p>Hey there! Welcome to my personal website. I am a 2<sup>nd</sup> year Masters (Thesis) student in Computational Science at <a href="https://harvard.edu" style="color:blue;">Harvard University</a> advised by <a href="himalakkaraju.github.io" style="color:blue;">Prof. Himabindu Lakkaraju</a>. 
             I work broadly in the realm of trustworthy machine learning, and particularly, explainability, uncertainty quantification, interpretability, and fairness.
             <br>
             <br>
@@ -111,6 +127,38 @@
         </ol>
     </section>
 
+    <section id="teaching" class="section-with-text">
+        <h2>Teaching Experiences</h2>
+        <p>I had the fortune of being a teaching fellow for following classes during my masters.</p>
+        <ul>
+            <li>CS205: Parallel Computing, Spring 2024</li>
+            <li>CS20: Discrete Mathematics, Spring 2024</li>
+            <li>CS187: Introduction to Natural Language Processing and Computational Linguistics, Fall 2023</li>
+            <li>ES123: Transport Phenomena, Spring 2023</li>
+        </ul>
+
+        Here's what my students have to say about me. Not so subtle *humble brag* follows.
+        <div class="container">
+            <div class="image-container">
+                <img src="assets/img/wordcloud.png" alt="word cloud">
+            </div>
+            <div class="testimonials">
+                <ul>
+                    <li>Sree was extremely helpful during office hours in explaining more complex topics discussed in class.</li>
+                    <li>Absolutely stellar TF, very grateful for his help during the course.</li>
+                    <li>Super helpful when I was confused about something!</li>
+                    <li>He was an invaluable TF for so many of us and helped us whenever we had questions or concerns.</li>
+                    <li>He was extremely nice with everybody and made sure every single person fully understood the concepts and had their questions answered in their entirety.</li>
+                    <li>Couldn't have gone through 187 without him!</li>
+                    <li>I wasn't able to go to Sree's office hours until about halfway through the semester, and I really regret that I couldn't go sooner.</li>
+                    <li>His office hours were very helpful in understanding the material but he also answered our (usually dumb) questions in such a respectful way that encouraged us to ask more questions so that we could fully comprehend the material.</li>
+                    <li>One of the best tf's i've had in a class. Would not have made it through this class without Sree.</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
     <br>
     <br>
     <br>
@@ -121,7 +169,7 @@
     <br>
 
     <footer>
-        <p>&copy; All rights reserved by ChatGPT.</p>
+        <p>All rights reserved by Sree Harsha Tanneru.</p>
     </footer>
 </body>
 </html>
