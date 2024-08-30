@@ -250,6 +250,12 @@ a:link, .tufte-underline, .hover-tufte-underline:hover {
     background-position: 0% 93%, 100% 93%, 0% 93%;
 }
 
+a:link, .tufte-underline, .hover-tufte-underline:hover {
+    background: none !important;
+    text-shadow: none !important;
+    text-decoration: none !important;
+}
+
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     a:link, .tufte-underline, .hover-tufte-underline:hover {
         background-position-y: 87%, 87%, 87%;
